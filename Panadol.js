@@ -721,7 +721,7 @@ if (reversed == null) { reversed = false; }
 		});
 		
 		// Set waktu awal
-		let countdown = 10;
+		let countdown = 30;
 		
 		// Set style teks timer
 		this.timer.font = "bold 18pt Gotham"; // Gotham Bold
@@ -890,7 +890,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(14).to({_off:false},0).to({y:357.5,alpha:1},10).to({_off:true},35).wait(121));
 
 	// Layer_6
-	this.timer = new cjs.Text("10", "18px 'Gotham Bold'", "#A31D23");
+	this.timer = new cjs.Text("30", "18px 'Gotham Bold'", "#A31D23");
 	this.timer.name = "timer";
 	this.timer.textAlign = "center";
 	this.timer.lineHeight = 24;
