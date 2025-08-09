@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Panadol_atlas_1", frames: [[1928,282,78,25],[0,482,249,72],[0,0,320,480],[569,482,294,49],[1113,492,295,34],[322,0,320,480],[644,0,320,480],[1606,289,204,242],[1928,252,73,28],[1928,56,92,42],[1928,100,92,42],[1928,144,92,42],[1606,0,320,287],[966,0,320,480],[865,482,246,41],[1288,419,280,71],[1288,313,273,104],[1288,0,316,311],[1928,188,55,62],[1928,0,87,54],[251,482,316,50]]}
+		{name:"Panadol_atlas_1", frames: [[1963,391,78,25],[1780,244,249,72],[0,0,490,516],[492,0,320,480],[0,518,294,49],[1689,534,295,34],[814,0,320,480],[1136,0,320,480],[1780,0,204,242],[1963,361,73,28],[1869,361,92,42],[1869,405,92,42],[296,518,92,42],[810,482,320,287],[1458,0,320,480],[1780,318,246,41],[1407,482,280,71],[1132,482,273,104],[492,482,316,311],[1986,0,55,62],[1780,361,87,54],[1689,482,316,50]]}
 ];
 
 
@@ -41,135 +41,142 @@ lib.ssMetadata = [
 
 
 
-(lib.bgred = function() {
+(lib.bevel = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.cepat = function() {
+(lib.bgred = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.footer = function() {
+(lib.cepat = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Image1 = function() {
+(lib.footer = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Image2 = function() {
+(lib.Image1 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.kemasan = function() {
+(lib.Image2 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Logo = function() {
+(lib.kemasan = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.op1 = function() {
+(lib.Logo = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.op2 = function() {
+(lib.op1 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.op3 = function() {
+(lib.op2 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.overlay = function() {
+(lib.op3 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.overlay2 = function() {
+(lib.overlay = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.panadol = function() {
+(lib.overlay2 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.question = function() {
+(lib.panadol = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Respons1 = function() {
+(lib.question = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.shieldbig = function() {
+(lib.Respons1 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.shield = function() {
+(lib.shieldbig = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.tab1 = function() {
+(lib.shield = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.terjangkau = function() {
+(lib.tab1 = function() {
 	this.initialize(ss["Panadol_atlas_1"]);
 	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.terjangkau = function() {
+	this.initialize(ss["Panadol_atlas_1"]);
+	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -565,6 +572,28 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.cepat_1, new cjs.Rectangle(-147,-24.5,294,49), null);
 
 
+(lib.bevel_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+
+	// Layer_1
+	this.instance = new lib.bevel();
+	this.instance.setTransform(-245,-258);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
+	this._renderFirstFrame();
+
+}).prototype = getMCSymbolPrototype(lib.bevel_1, new cjs.Rectangle(-245,-258,490,516), null);
+
+
 (lib.baru_1 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -788,11 +817,11 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(59).to({_off:false},0).to({rotation:0,x:160.5,y:173,alpha:1},10).to({_off:true},27).wait(84));
 
 	// Layer_11
-	this.instance_2 = new lib.shieldtrx();
-	this.instance_2.setTransform(-352.15,232.25,1.685,1.685,0,0,0,-0.1,0.1);
+	this.instance_2 = new lib.bevel_1();
+	this.instance_2.setTransform(-352.25,232.35,1.0822,1.0822,0,0,0,-0.1,0.1);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(54).to({_off:false},0).to({x:619,y:233.85},5).wait(72).to({x:-352.15,y:232.25},0).to({x:619,y:233.85},5).to({_off:true},1).wait(43));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(54).to({_off:false},0).to({scaleX:1.069,scaleY:1.069,x:618.95,y:233.95},9).wait(68).to({scaleX:1.0822,scaleY:1.0822,x:-352.25,y:232.35},0).to({scaleX:1.069,scaleY:1.069,x:618.95,y:233.95},9).to({_off:true},1).wait(39));
 
 	// Layer_4
 	this.instance_3 = new lib.Logo();
@@ -862,11 +891,11 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_12
 	this.instance_11 = new lib.red();
-	this.instance_11.setTransform(-160,240);
+	this.instance_11.setTransform(-27,240);
 	this.instance_11.alpha = 0;
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(54).to({_off:false},0).to({x:160,alpha:1},5).wait(37).to({alpha:0},5).wait(30).to({x:-160},0).to({x:160,alpha:1},5).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(54).to({_off:false},0).to({x:160,alpha:1},7).wait(35).to({alpha:0},5).wait(30).to({x:-27},0).to({x:160,alpha:1},7).wait(42));
 
 	// Layer_10
 	this.respons = new lib.respons1();
@@ -940,7 +969,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-458.2,120.5,1343.6,479.1);
+p.nominalBounds = new cjs.Rectangle(-457.3,120.5,1338.3,479.1);
 // library properties:
 lib.properties = {
 	id: '89A0D2EBF3D40840B5E43F14BDB73BC3',
