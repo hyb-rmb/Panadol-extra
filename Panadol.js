@@ -2,9 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [
-		{name:"Panadol_atlas_1", frames: [[1963,391,78,25],[1780,244,249,72],[0,0,490,516],[492,0,320,480],[0,518,294,49],[1689,534,295,34],[814,0,320,480],[1136,0,320,480],[1780,0,204,242],[1963,361,73,28],[1869,361,92,42],[1869,405,92,42],[296,518,92,42],[810,482,320,287],[1458,0,320,480],[1780,318,246,41],[1407,482,280,71],[1132,482,273,104],[492,482,316,311],[1986,0,55,62],[1780,361,87,54],[1689,482,316,50]]}
-];
+lib.ssMetadata = [];
 
 
 (lib.AnMovieClip = function(){
@@ -28,157 +26,135 @@ lib.ssMetadata = [
 
 
 (lib.baru = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.baru);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,78,25);
 
 
 (lib.benar = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.benar);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,249,72);
 
 
 (lib.bevel = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.bevel);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,490,516);
 
 
 (lib.bgred = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.bgred);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,320,480);
 
 
 (lib.cepat = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.cepat);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,294,49);
 
 
 (lib.footer = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.footer);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,295,34);
 
 
 (lib.Image1 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.Image1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,320,480);
 
 
 (lib.Image2 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.Image2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,320,480);
 
 
 (lib.kemasan = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.kemasan);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,204,242);
 
 
 (lib.Logo = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.Logo);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,73,28);
 
 
 (lib.op1 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.op1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,92,42);
 
 
 (lib.op2 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.op2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,92,42);
 
 
 (lib.op3 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.op3);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,92,42);
 
 
 (lib.overlay = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.overlay);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,320,287);
 
 
 (lib.overlay2 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.overlay2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,320,480);
 
 
 (lib.panadol = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.panadol);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,246,41);
 
 
 (lib.question = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.question);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,280,71);
 
 
 (lib.Respons1 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.Respons1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,273,104);
 
 
 (lib.shieldbig = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.shieldbig);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,316,311);
 
 
 (lib.shield = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.shield);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,55,62);
 
 
 (lib.tab1 = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
+	this.initialize(img.tab1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,87,54);
 
 
 (lib.terjangkau = function() {
-	this.initialize(ss["Panadol_atlas_1"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-// helper functions:
+	this.initialize(img.terjangkau);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,316,50);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
@@ -979,7 +955,28 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Panadol_atlas_1.png", id:"Panadol_atlas_1"}
+		{src:"images/baru.png", id:"baru"},
+		{src:"images/benar.png", id:"benar"},
+		{src:"images/bevel.png", id:"bevel"},
+		{src:"images/bgred.png", id:"bgred"},
+		{src:"images/cepat.png", id:"cepat"},
+		{src:"images/footer.png", id:"footer"},
+		{src:"images/Image1.png", id:"Image1"},
+		{src:"images/Image2.png", id:"Image2"},
+		{src:"images/kemasan.png", id:"kemasan"},
+		{src:"images/Logo.png", id:"Logo"},
+		{src:"images/op1.png", id:"op1"},
+		{src:"images/op2.png", id:"op2"},
+		{src:"images/op3.png", id:"op3"},
+		{src:"images/overlay.png", id:"overlay"},
+		{src:"images/overlay2.png", id:"overlay2"},
+		{src:"images/panadol.png", id:"panadol"},
+		{src:"images/question.png", id:"question"},
+		{src:"images/Respons1.png", id:"Respons1"},
+		{src:"images/shieldbig.png", id:"shieldbig"},
+		{src:"images/shield.png", id:"shield"},
+		{src:"images/tab1.png", id:"tab1"},
+		{src:"images/terjangkau.png", id:"terjangkau"}
 	],
 	preloads: []
 };
